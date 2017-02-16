@@ -6,108 +6,87 @@ expr
   font-family dvsm
   display inline-block
   f
-    position relative
+    display inline-flex
+    flex-direction column
     font-size .75em
+    align-items center
+    vertical-align middle
     n
-      position absolute
-      bottom 50%
       text-align center
-      left 50%
-      transform translateX(-50%)
+      width 100%
+      border-bottom 1px solid
+      order 1
     d
-      vertical-align -50%
       text-align center
-      border-top 1px solid black
-  f[i]
-    n
-      position initial
-      bottom initial
-      left initial
-      transform initial
-      vertical-align 50%
-      border-bottom 1px solid black
-    d
-      border initial
-      vertical-align initial
-      position absolute
-      top 50%
-      left 50%
-      transform translateX(-50%)
+      order 2
 
   sum
-    position relative
-    display inline-block
+    display inline-flex
+    flex-direction column
+    align-items center
+    vertical-align middle
     i
-      position absolute
       font-size .75em
       font-style normal
-      top 3em
-      left 50%
-      transform translateX(-50%)
+      order 3
     l
-      position absolute
       font-size .75em
-      top -1em
-      left 50%
-      transform translateX(-50%)
+      order 1
   sum:before
     content '∑'
     font-size 2em
-    vertical-align middle
+    order 2
 
   lim
-    position relative
-    display inline-block
+    display inline-flex
+    flex-direction column
+    align-items center
     i
-      position absolute
       font-size .75em
       font-style normal
-      top 1.5em
-      left 50%
-      transform translateX(-50%)
   lim:before
     content 'lim '
+    font-weight bold
     white-space pre
     font-size .9em
 
   int
-    position relative
-    display inline-block
+    display inline-flex
+    flex-direction column
+    align-items center
+    vertical-align middle
     l
-      position absolute
       font-size .75em
-      font-style normal
-      top 3em
-      left 50%
-      transform translateX(-50%)
+      order 3
     u
-      position absolute
       font-size .75em
-      top -1em
-      left 50%
       text-decoration none
-      transform translateX(-50%)
+      order 1
   int:before
     content '∫'
     font-size 2em
-    vertical-align middle
-
+    order 2
   ev
-    position relative
-    display inline-block
     l
-      position absolute
+      position relative
       font-size .75em
-      font-style normal
-      top 2.5em
-      left 70%
+      vertical-align bottom
+      right .5em
     u
-      position absolute
+      position relative
       font-size .75em
-      top 0
-      left 70%
       text-decoration none
+      vertical-align top
+      right 1.1em
   ev:before
     content '|'
     font-size 2em
-    vertical-align middle
+
+  rt
+    r:before
+      content '√'
+      font-size 2em
+      vertical-align middle
+    r:after
+      width 100%
+      border-top 1px solid
