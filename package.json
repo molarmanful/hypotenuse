@@ -1,0 +1,22 @@
+{
+  "name": "hypotenuse",
+  "version": "0.0.0",
+  "description": "Math rendering using only HTML and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molarmanful/hypotenuse.git"
+  },
+  "author": "Benjamin Pang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molarmanful/hypotenuse/issues"
+  },
+  "homepage": "https://github.com/molarmanful/hypotenuse#readme",
+  "dependencies": {
+    "nib": "^1.1.2"
+  }
+}

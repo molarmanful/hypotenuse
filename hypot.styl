@@ -1,0 +1,113 @@
+//out:hypot.css,compress:true,libs:nib
+@import 'node_modules/nib'
+@import url(https://molarmanful.github.io/ESMin/dvsm.css)
+
+expr
+  font-family dvsm
+  display inline-block
+  f
+    position relative
+    font-size .75em
+    n
+      position absolute
+      bottom 50%
+      text-align center
+      left 50%
+      transform translateX(-50%)
+    d
+      vertical-align -50%
+      text-align center
+      border-top 1px solid black
+  f[i]
+    n
+      position initial
+      bottom initial
+      left initial
+      transform initial
+      vertical-align 50%
+      border-bottom 1px solid black
+    d
+      border initial
+      vertical-align initial
+      position absolute
+      top 50%
+      left 50%
+      transform translateX(-50%)
+
+  sum
+    position relative
+    display inline-block
+    i
+      position absolute
+      font-size .75em
+      font-style normal
+      top 3em
+      left 50%
+      transform translateX(-50%)
+    l
+      position absolute
+      font-size .75em
+      top -1em
+      left 50%
+      transform translateX(-50%)
+  sum:before
+    content '∑'
+    font-size 2em
+    vertical-align middle
+
+  lim
+    position relative
+    display inline-block
+    i
+      position absolute
+      font-size .75em
+      font-style normal
+      top 1.5em
+      left 50%
+      transform translateX(-50%)
+  lim:before
+    content 'lim '
+    white-space pre
+    font-size .9em
+
+  int
+    position relative
+    display inline-block
+    l
+      position absolute
+      font-size .75em
+      font-style normal
+      top 3em
+      left 50%
+      transform translateX(-50%)
+    u
+      position absolute
+      font-size .75em
+      top -1em
+      left 50%
+      text-decoration none
+      transform translateX(-50%)
+  int:before
+    content '∫'
+    font-size 2em
+    vertical-align middle
+
+  ev
+    position relative
+    display inline-block
+    l
+      position absolute
+      font-size .75em
+      font-style normal
+      top 2.5em
+      left 70%
+    u
+      position absolute
+      font-size .75em
+      top 0
+      left 70%
+      text-decoration none
+  ev:before
+    content '|'
+    font-size 2em
+    vertical-align middle
