@@ -5,6 +5,10 @@
 expr
   font-family dvsm
   display inline-block
+
+  e
+    vertical-align super
+    font-size .75em
   f
     display inline-flex
     flex-direction column
@@ -82,11 +86,21 @@ expr
     content '|'
     font-size 2em
 
-  rt
-    r:before
-      content '√'
-      font-size 2em
-      vertical-align middle
-    r:after
-      width 100%
+  r
+    position relative
+    hr
+      display inline
+      position absolute
+      width calc(100% - 1ch)
+      top -50%
+      border none
       border-top 1px solid
+  r:before
+    content '√'
+    font-size 1.25em
+  rn
+    position relative
+    font-size .5em
+    right -1em
+    margin-left -.5em
+    vertical-align top
