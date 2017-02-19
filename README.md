@@ -2,7 +2,7 @@
 A basic CSS-only library for mathematical formatting. Meant as a proof-of-concept rather than a real alternative to existing math formatting libraries.
 
 #Specs
-The library mainly provides formatting not easily achievable through only Unicode. It is extremely fast compared to other math formatting libs because it uses a small amount of HTML and CSS to render the necessary syntax.
+The library mainly provides formatting not easily achievable through only Unicode. It is rather fast compared to other math formatting libs because it uses a small amount of HTML and CSS to render the necessary syntax.
 
 The library uses DejaVu Sans Mono for wider Unicode support and more consistent spacing. All font units are expressed in `em`s for easy scaling.
 
@@ -10,6 +10,7 @@ The library uses DejaVu Sans Mono for wider Unicode support and more consistent 
 `hypot.css` contains the distribution code. Wrap all formatting in `expr` tags.
 
 ##Tags
+See [this](http://codepen.io/molarmanful/pen/Greyzg) for example usages.
 ###`e`, `sub`
 Superscript/subscript tags that are compatible with `hypotenuse` formatting.
 ###`f` --> `n`, `d`
